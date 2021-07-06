@@ -45,7 +45,7 @@ Show your support please. Help me grow. Give me a ⭐ if you like this project.
 ## ACKNOWLEDGEMENT
 
 - A big kudos to anyone whose codes was used to achieve this.
--To @ignatius22, thank you for the push so far.
+- To @ignatius22, thank you for the push so far.
 
 ---
 
