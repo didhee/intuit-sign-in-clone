@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #193048;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 375px;
+    margin: 40px auto 0 auto;
+}
+
+.body-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    padding: 30px 10px 0 10px;
+}
+
+.body-information {
+    width: 310px;
+    margin: 0 auto;
+}
+
+header .intuit-logo {
+    width: 118px;
+    height: 35px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+header .header-details {
+    width: 318px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .quickbooks-details {
+    margin-right: 5px;
+}
+
+header .quickbooks-details img, header .turbotax-details img {
+    width: 23px;
+    height: 23px;
+    vertical-align: sub;
+}
+
+header .quickbooks-details a, header .turbotax-details a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.first {
+    opacity: 0.3;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    color: #393A3D;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.h2-sub-note {
+    font-size: 14px;
+    text-align: center;
+    color: #393A3D;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    margin: 30px 0;
+    font-style: normal;
+}
+
+.h2-sub-note a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #365EBF;
+}
+
+.h2-sub-note a:hover, .h2-sub-note a:visited {
+    text-decoration: underline;
+}
+
+.google-sign-in {
+    width: 100%;
+    min-height: 40px;
+    height: 44px;
+    color: #444444;
+    border: 1px solid #8D9096;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
+    outline: none;
+    white-space: nowrap;
+}
+
+.google-favicon {
+    width: 18px;
+    height: 18px;
+    vertical-align: sub;
+}
+
+.left {
+    width: 43%;
+    opacity: 0.3;
+}
+
+.right {
+    width: 43%;
+    opacity: 0.3;
+    float: right;
+    position: relative;
+    bottom: 22px;
+}
+
+h4 {
+    color: #393A3D;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 12px;
+    line-height: 20px;
+}
+
+form div {
+    margin-top: 20px;
+}
+
+.username, .userPassword {
+    display: flex;
+    flex-direction: column;
+}
+
+.username label, .userPassword label {
+    color: #404040;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    padding-bottom: 6px;
+    line-height: 25px;
+}
+
+.username input, .userPassword input {
+    width: 100%;
+    min-width: 160px;
+    height: 34px;
+    padding-left: 8px;
+    padding-right: 6px;
+    color: #000000;
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+    outline: none;
+    line-height: 25px;
+    background-color: -internal-light-dark (rgb(255, 255, 2555), rgb(59, 59, 59));
+    font: 400 14px Arial;
+}
+
+.username input:hover, .userPassword input:hover {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 2px rgba(161, 161, 161, 0.25);
+}
+
+.username input:focus, .userPassword input:focus {
+    box-shadow: 0 0 0 2px #D4D7DC;
+    border: 1px solid #2CA01C;
+}
+
+input[type=checkbox] {
+    width: 19px;
+    height: 19px;
+    /* appearance: none; */
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+    background: #FFFFFF;
+    cursor: pointer;
+    vertical-align: sub;
+}
+
+/* input[type=checkbox]:checked {
+    border: 2px solid #00B100;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    content: '';
+    opacity: 0;
+    width: 12px;
+    height: 6px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 4px;
+    letter-spacing: 3px;
+}  */
+
+.checkbox label {
+    padding: 0 12px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    zoom: 1;
+    line-height: 25px;
+    color: #404040;
+}
+
+.submit {
+    width: 100%;
+    height: 44px;
+    color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    padding: 6px 12px;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    background: #2CA01C;
+    zoom: 1;
+    font-size: 16px;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.submit img {
+    vertical-align: bottom;
+}
+
+.sign-in-note {
+    color: #757575;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.sign-in-note a {
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+    color: #365EBF;
+}
+
+.sign-in-note a:hover, .sign-in-note a:visited {
+    text-decoration: underline;
+}
+
+.last {
+    margin: 30px 0;
+    opacity: 0.3;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+.forgot-password a, .create-account a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    line-height: 20px;
+    color: #365EBF;
+}
+
+.forgot-password a:hover, .forgot-password a:visited, .create-account a:hover, .create-account a:visited {
+    text-decoration: underline;
+}
+
+.create-account {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer {
+    background-color: #ECEEF1;
+    /* margin: 32px -30px -30px -30px; */
+    padding: 16px;
+}
+
+footer p {
+    font-size: 10px;
+    color: #8D9096;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #365EBF;
+}
+
+footer p a:hover, footer p a:visited {
+    text-decoration: underline;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 11px;
+    color: #76818C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.bottom .copyright {
+    margin-right: 80px;
+}
+
+.bottom .links {
+    color: #76818C;
+} 
+
+.bottom .links a {
+    color: #76818C;
+    text-decoration: none;
+} 
+
+.bottom .links a:hover, .bottom .links a:visited{
+    text-decoration: underline;
+    color: #365EBF;
+}
+
+.bottom-alternate-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.5;
+    position: sticky;
+    z-index: 1;
+    bottom: 40px;
+}
+
+.bottom-alternate-logo div {
+    width: 100px;
+    height: 35px;
+    background-image: url("./assets/login_footer_sprite.png");
+    background-repeat: no-repeat;
+    background-size: -93px;
+    background-position: top;
+}
